@@ -30,7 +30,7 @@ export default function Hero() {
             
             {/* Sous-titre */}
             <p className="mx-auto max-w-2xl text-lg md:text-xl text-muted-foreground">
-              Plus qu'un métier, une passion à forte valeur ajoutée. Je transforme les défis administratifs en opportunités stratégiques.
+              Plus qu&apos;un métier, une passion à forte valeur ajoutée. Je transforme les défis administratifs en opportunités stratégiques.
             </p>
             
             {/* Boutons d'action */}

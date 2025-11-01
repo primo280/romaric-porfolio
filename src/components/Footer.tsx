@@ -96,7 +96,7 @@ export default function Footer() {
               Spécialiste en pilotage administratif et financier, engagé pour la performance durable des organisations.
             </p>
             <p className="text-sm text-muted-foreground">
-              J'accompagne les dirigeants et leurs équipes dans l'optimisation des processus, la structuration des opérations et la mise en place d'outils de pilotage sur mesure.
+              J&apos;accompagne les dirigeants et leurs équipes dans l&apos;optimisation des processus, la structuration des opérations et la mise en place d&apos;outils de pilotage sur mesure.
             </p>
             <div className="flex flex-wrap gap-3">
               {socialLinks.map(({ icon: Icon, label, href }) => (
@@ -134,7 +134,7 @@ export default function Footer() {
 
           <div className="space-y-5">
             <h4 className="text-sm font-semibold uppercase tracking-wide text-foreground/80">
-              Domaines d'expertise
+              Domaines d&apos;expertise
             </h4>
             <ul className="grid gap-3 text-sm text-muted-foreground">
               {expertises.map((item) => (

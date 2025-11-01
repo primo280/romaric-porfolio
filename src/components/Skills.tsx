@@ -1,7 +1,5 @@
 'use client';
 
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Progress } from '@/components/ui/progress';
 import { FileText, BarChart2, Users, BookOpen, Briefcase, PieChart } from 'lucide-react';
 
 const skillCategories = [

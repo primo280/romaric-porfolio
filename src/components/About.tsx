@@ -1,9 +1,7 @@
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { GraduationCap, Briefcase, Award } from 'lucide-react';
-import Image from 'next/image';
 
 export default function About() {
   const skills = [
@@ -46,7 +44,7 @@ export default function About() {
           </h2>
           <div className="h-1 w-20 bg-primary rounded-full mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground">
-            Passionné par l'excellence administrative et la performance financière, je mets mon expertise au service de l'optimisation des processus et de la création de valeur ajoutée.
+            Passionné par l&apos;excellence administrative et la performance financière, je mets mon expertise au service de l&apos;optimisation des processus et de la création de valeur ajoutée.
           </p>
         </div>
 
@@ -58,7 +56,7 @@ export default function About() {
               <h3 className="text-2xl font-bold text-foreground">Qui suis-je ?</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Je m'appelle <span className="font-semibold text-foreground">Romaric Eugenos Goncalves</span>, spécialiste en administration et gestion financière avec plus de 7 ans d'expérience dans l'optimisation des processus administratifs et l'analyse financière stratégique.
+                  Je m&apos;appelle <span className="font-semibold text-foreground">Romaric Eugenos Goncalves</span>, spécialiste en administration et gestion financière avec plus de 7 ans d&apos;expérience dans l&apos;optimisation des processus administratifs et l&apos;analyse financière stratégique.
                 </p>
                 <p>
                   Mon approche allie rigueur méthodologique et vision stratégique pour transformer les défis administratifs en opportunités de croissance pour les entreprises.

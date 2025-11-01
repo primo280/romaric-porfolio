@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, Variants } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle, Clock, User, MessageSquare } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -78,25 +78,25 @@ export default function Contact() {
   };
 
   // Animations
-  const container = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
       transition: {
         staggerChildren: 0.1,
-        type: "spring",
+        type: 'spring',
         stiffness: 100
       }
     }
   };
 
-  const item = {
+  const item: Variants = {
     hidden: { opacity: 0, y: 20 },
     show: {
       opacity: 1,
       y: 0,
       transition: {
-        type: "spring",
+        type: 'spring',
         stiffness: 100
       }
     }
@@ -122,7 +122,7 @@ export default function Contact() {
           </h2>
           <div className="h-1 w-20 bg-primary rounded-full mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground">
-            Une question, un projet ou une opportunité de collaboration ? Je serai ravi d'échanger avec vous.
+            Une question, un projet ou une opportunité de collaboration ? Je serai ravi d&apos;échanger avec vous.
           </p>
         </motion.div>
 
@@ -289,7 +289,7 @@ export default function Contact() {
                   Mes coordonnées
                 </CardTitle>
                 <p className="text-muted-foreground">
-                  N'hésitez pas à me contacter directement par l'un des moyens ci-dessous.
+                  N&apos;hésitez pas à me contacter directement par l&apos;un des moyens ci-dessous.
                 </p>
               </CardHeader>
               <CardContent className="relative z-10 pb-8">
