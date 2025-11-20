@@ -1,77 +1,9 @@
 'use client';
 
-import { FileText, BarChart2, Users, BookOpen, Briefcase, PieChart } from 'lucide-react';
 
-const skillCategories = [
-  {
-    title: 'Gestion Administrative',
-    icon: <FileText className="h-6 w-6 text-primary" />,
-    skills: [
-      { name: 'Gestion documentaire', level: 90 },
-      { name: 'Organisation d\'événements', level: 85 },
-      { name: 'Gestion des plannings', level: 88 },
-      { name: 'Rédaction administrative', level: 82 },
-    ]
-  },
-  {
-    title: 'Comptabilité & Finance',
-    icon: <BarChart2 className="h-6 w-6 text-primary" />,
-    skills: [
-      { name: 'Comptabilité générale', level: 92 },
-      { name: 'Analyse financière', level: 88 },
-      { name: 'Gestion de trésorerie', level: 90 },
-      { name: 'Contrôle budgétaire', level: 85 },
-    ]
-  },
-  {
-    title: 'Ressources Humaines',
-    icon: <Users className="h-6 w-6 text-primary" />,
-    skills: [
-      { name: 'Recrutement', level: 85 },
-      { name: 'Formation du personnel', level: 88 },
-      { name: 'Gestion des paies', level: 80 },
-      { name: 'Droit du travail', level: 82 },
-    ]
-  },
-  {
-    title: 'Formation & Développement',
-    icon: <BookOpen className="h-6 w-6 text-primary" />,
-    skills: [
-      { name: 'Conception de formations', level: 90 },
-      { name: 'Animation de sessions', level: 88 },
-      { name: 'Évaluation des compétences', level: 85 },
-      { name: 'Tutoring', level: 87 },
-    ]
-  },
-  {
-    title: 'Management de Projet',
-    icon: <Briefcase className="h-6 w-6 text-primary" />,
-    skills: [
-      { name: 'Planification', level: 88 },
-      { name: 'Gestion des risques', level: 85 },
-      { name: 'Méthodologie Agile', level: 82 },
-      { name: 'Gestion des parties prenantes', level: 87 },
-    ]
-  },
-  {
-    title: 'Analyse & Reporting',
-    icon: <PieChart className="h-6 w-6 text-primary" />,
-    skills: [
-      { name: 'Tableaux de bord', level: 90 },
-      { name: 'Analyse de données', level: 85 },
-      { name: 'Rapports financiers', level: 88 },
-      { name: 'Indicateurs de performance', level: 86 },
-    ]
-  }
-];
 
 export default function Skills() {
-  const getProgressColor = (level: number) => {
-    if (level >= 85) return 'bg-primary';
-    if (level >= 70) return 'bg-accent';
-    return 'bg-foreground/30';
-  };
-
+ 
   return (
     <section id="skills" className="w-full py-20 md:py-28 lg:py-36 bg-background">
       <div className="container px-6 mx-auto">
