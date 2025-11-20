@@ -24,19 +24,19 @@ const contactItems = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'contact@romaric-eg.com',
-    href: 'mailto:contact@romaric-eg.com'
+    value: 'romaricgoncalves@gmail.com',
+    href: 'mailto:romaricgoncalves@gmail.com'
   },
   {
     icon: Phone,
     label: 'Téléphone',
-    value: '+33 6 12 34 56 78',
+    value: '+2290195462210',
     href: 'tel:+33612345678'
   },
   {
     icon: MapPin,
     label: 'Localisation',
-    value: 'Paris, France'
+    value: 'Cotonou, Bénin'
   }
 ];
 

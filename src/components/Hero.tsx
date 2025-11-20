@@ -114,7 +114,7 @@ export default function Hero() {
             <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-background/80 shadow-2xl backdrop-blur">
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-primary/10" />
               <Image
-                src="/images/romaric-portrait.jpg"
+                src="/images/romaric.jpg"
                 width={450}
                 height={580}
                 alt="Portrait de Romaric Eugenos Goncalves"

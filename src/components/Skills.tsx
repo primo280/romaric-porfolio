@@ -75,11 +75,14 @@ export default function Skills() {
   return (
     <section id="skills" className="w-full py-20 md:py-28 lg:py-36 bg-background">
       <div className="container px-6 mx-auto">
+        
+        {/* Compétences complémentaires 
+        
         {/* En-tête de section */}
         <div className="text-center max-w-4xl mx-auto mb-16">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             <span className="h-2 w-2 rounded-full bg-accent mr-2"></span>
-            Mes Compétences
+           Compétences Complémentaires
           </div>
           <h2 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-6">
             Expertise <span className="text-primary">Professionnelle</span>
@@ -91,48 +94,12 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* Grille des compétences */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {skillCategories.map((category, index) => (
-            <div 
-              key={index}
-              className="group relative overflow-hidden rounded-2xl border border-foreground/10 bg-card p-6 shadow-sm transition-all hover:shadow-lg hover:-translate-y-1"
-            >
-              <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                {category.icon}
-              </div>
-              
-              <h3 className="mb-4 text-xl font-semibold text-foreground">
-                {category.title}
-              </h3>
-              
-              <div className="space-y-4">
-                {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="space-y-2">
-                    <div className="flex items-center justify-between text-sm">
-                      <span className="font-medium text-foreground/90">{skill.name}</span>
-                      <span className="font-medium text-primary">{skill.level}%</span>
-                    </div>
-                    <div className="h-2 w-full rounded-full bg-foreground/5 overflow-hidden">
-                      <div 
-                        className={`h-full rounded-full ${getProgressColor(skill.level)}`}
-                        style={{ width: `${skill.level}%` }}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-              
-              <div className="absolute -right-10 -top-10 h-20 w-20 rounded-full bg-primary/5 transition-all duration-300 group-hover:bg-primary/10"></div>
-            </div>
-          ))}
-        </div>
+        
+        
 
         {/* Compétences complémentaires */}
         <div className="mt-20 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-center mb-8 text-foreground">
-            Compétences <span className="text-primary">Complémentaires</span>
-          </h3>
+          
           
           <div className="flex flex-wrap justify-center gap-3">
             {[
@@ -151,6 +118,6 @@ export default function Skills() {
           </div>
         </div>
       </div>
-    </section>
+    </section>  
   );
 }

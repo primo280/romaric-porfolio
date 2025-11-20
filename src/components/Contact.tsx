@@ -301,10 +301,10 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold text-foreground">Email</h3>
                       <a 
-                        href="mailto:contact@romaric-eg.com" 
+                        href="mailto:romaricgoncalves@gmail.com" 
                         className="text-muted-foreground hover:text-primary transition-colors break-all"
                       >
-                        contact@romaric-eg.com
+                        romaricgoncalves@gmail.com
                       </a>
                     </div>
                   </div>
@@ -319,7 +319,7 @@ export default function Contact() {
                         href="tel:+33612345678" 
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +33 6 12 34 56 78
+                        +2290195462210
                       </a>
                       <p className="text-xs text-muted-foreground mt-1">Disponible du lundi au vendredi, de 9h à 18h</p>
                     </div>
@@ -331,7 +331,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground">Localisation</h3>
-                      <p className="text-muted-foreground">Paris, France</p>
+                      <p className="text-muted-foreground">Cotonou, Bénin</p>
                       <p className="text-xs text-muted-foreground mt-1">Disponible pour des missions en présentiel ou en télétravail</p>
                     </div>
                   </div>
